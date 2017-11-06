@@ -47,3 +47,9 @@ This is a list of everything I ended up needing to finish the project
 - Attach large piece of poster board to the wheel in progress to provide a flat surface for light attachment
 - Remove 3 lights from the 119 led strip that circles the wheel
   - Its now 116 lights.
+- Soldered all the spokes for one wheel together.
+- Discovered why I was getting random flashing as well as the first leds of each strip were lighting up randomly
+  - needed a common ground, see diagram here https://learn.adafruit.com/assets/30892
+    - this means connect the ground from the wall to the GND on the arduinio.
+- wrote some code to spin the leds around the wheel and light up spokes as they pass by
+  - Need to make the length of leds that are lit on the wheel longer, currently its too short.
